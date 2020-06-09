@@ -577,7 +577,7 @@ if(stripos($mtext,"kimsan")!== false){
   ]));
 } */
 
-if((mb_stripos($mtext,"#Taklif") !== false)){ 
+if((mb_stripos($mtext,"#admin") !== false)){ 
 bot('SendMessage',[
 'chat_id'=>$chat_id,
 'reply_to_message_id'=>$mid,
